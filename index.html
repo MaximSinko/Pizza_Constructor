@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Constructor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header class="header">
+            <div class="Header-logo">
+                <span class="logo">Pizza Constructor</span>
+            </div>
+
+            <button class="btn-pay">
+                Оплатити: <span class="payment-amount">50 грн</span>
+            </button>
+        </header>
+
+
+        <main class="main">
+            <div class="main-left-box">
+                <div class="left-box-column">
+                    <h3 class="column-title" id="categore-1">Оберіть інградієнти</h3>
+                    <div class="category">
+                        <div class="category-title" id="category-1">Сир</div>
+                        <div class="ingradient-grid" id="ingradient-grid-1">
+                            <div class="ingradient-item" id="cheder" data-ingradient="cheder" data-type="cheese"
+                                data-name="Чеддер" data-price="40" data-img="img/chedder.png">
+                                <img src="img/chedder.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Чеддер</p>
+                                <p class="ingradient-price">40 грн</p>
+                            </div>
+
+                            <div class="ingradient-item" data-ingradient="mozzarella" id="mozzarella" data-type="cheese"
+                                data-name="Моцарела" data-price="40" data-img="img/mozzarella.png">
+                                <img src="img/mozzarella.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Моцарела</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="feta" id="feta" data-type="cheese"
+                                data-name="Фета" data-price="40" data-img="img/feta.png">
+                                <img src="img/feta.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Фета</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="bergarder" id="bergarder" data-type="cheese"
+                                data-name="Бергардер" data-price="40" data-img="img/82857739-2222299-dor-blu4.png">
+                                <img src="img/82857739-2222299-dor-blu4.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Бергардер</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="parmezan" id="parmezan" data-type="cheese"
+                                data-name="Пармезан" data-price="40" data-img="img/parmezan.png">
+                                <img src="img/parmezan.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Пармезан</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="category-title" id="category-2">М`ясо</div>
+                        <div class="ingradient-grid" id="ingradient-grid-2">
+                            <div class="ingradient-item" data-ingradient="chicken" id="chicken" data-type="meat" data-name="Курка" data-price="50"
+                                data-img="img/chicken.png">
+                                <img src="img/chicken.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Курка</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="salami" id="salami" data-type="meat" data-name="Салямі" data-price="50"
+                                data-img="img/salami.png">
+                                <img src="img/salami.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Салямі</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="ham" id="ham"  data-type="meat" data-name="Шинка" data-price="50"
+                                data-img="img/ham.png">
+                                <img src="img/ham.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Шинка</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="bacon" id="bacon"  data-type="meat" data-name="Бекон" data-price="50"
+                                data-img="img/bacon.png">
+                                <img src="img/bacon.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Бекон</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="peperoni" id="peperoni"  data-type="meat" data-name="Пепероні" data-price="50"
+                                data-img="img/peperoni.png">
+                                <img src="img/peperoni.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Папероні</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="category-title" id="category-3">Овочі</div>
+                        <div class="ingradient-grid" id="ingradient-grid-3">
+                            <div class="ingradient-item" data-ingradient="cherry-tomatoes" id="cherry-tomatoes"  data-type="vegetables" data-name="Помідори чері"
+                                data-price="40" data-img="img/cherry-tomatoes.png50">
+                                <img src="img/cherry-tomatoes.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Чері</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="shpinat" id="shpinat"  data-type="vegetables" data-name="Шпинат" data-price="40"
+                                data-img="img/shpinat.png">
+                                <img src="img/shpinat.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Шпинат</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="khalapeno" id="khalapeno"  data-type="vegetables" data-name="Халапеньйо" data-price="40"
+                                data-img="img/khalapeno.png">
+                                <img src="img/khalapeno.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Халапеньйо</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="olyvky" id="olyvky"  data-type="vegetables" data-name="Оливки" data-price="40"
+                                data-img="img/olyvky.png">
+                                <img src="img/olyvky.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Оливки</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="shampinony" id="shampinony"  data-type="vegetables" data-name="Гриби" data-price="40"
+                                data-img="img/shampinony.png">
+                                <img src="img/shampinony.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Гриби</p>
+                                <p class="ingradient-price">40грн</p>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="category-title" id="category-4">Соуси</div>
+                        <div class="ingradient-grid" id="ingradient-grid-4">
+                            <div class="ingradient-item" data-ingradient="chesnochnyi" id="chesnochnyi"  data-type="sauces" data-name="Часниковий" data-price="50"
+                                data-img="img/chesnochnyi.png">
+                                <img src="img/chesnochnyi.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Часниковий</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="alfredo" id="alfredo"  data-type="sauces" data-name="Альфредо" data-price="50"
+                                data-img="img/alfredo.png">
+                                <img src="img/alfredo.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Альфредо</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                            <div class="ingradient-item" data-ingradient="sous-bbk" id="sous-bbk"  data-type="sauces" data-name="Барбекю" data-price="50"
+                                data-img="img/sous-bbk.png">
+                                <img src="img/sous-bbk.png" alt="" class="ingradient-img">
+                                <p class="ingradient-name">Барбекю</p>
+                                <p class="ingradient-price">50грн</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="main-right-box">
+                <div class="pizza-preview">
+                    <div class="pizza-base">
+                        <img src="img/chedder.png" data-ingradient-pizza="cheder" id="chederPizza"
+                            class="ingradient_on_pizza">
+                        <img src="img/feta.png" data-ingradient-pizza="feta" id="fetaPizza" class="ingradient_on_pizza">
+                        <img src="img/parmezan.png" data-ingradient-pizza="parmezan" id="parmezanPizza"
+                            class="ingradient_on_pizza">
+                        <img src="img/82857739-2222299-dor-blu4.png" data-ingradient-pizza="bergarder"
+                            id="bergarderPizza" class="ingradient_on_pizza">
+                        <img src="img/mozzarella.png" data-ingradient-pizza="mozzarella" id="mozzarellaPizza" alt=""
+                            class="ingradient_on_pizza">
+                        <img src="img/chicken.png" data-ingradient-pizza="chicken" id="chickenPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/ham.png" data-ingradient-pizza="ham" id="hamPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/salami.png" data-ingradient-pizza="salami" id="salami" alt="" class="ingradient_on_pizza">
+                        <img src="img/bacon.png" data-ingradient-pizza="bacon" id="baconPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/peperoni.png" data-ingradient-pizza="peperoni" id="peperoniPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/cherry-tomatoes.png" data-ingradient-pizza="cherry-tomatoes" id="cherry-tomatoesPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/shpinat.png" data-ingradient-pizza="shpinat" id="shpinatPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/khalapeno.png" data-ingradient-pizza="khalapeno" id="khalapenoPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/olyvky.png" data-ingradient-pizza="olyvky" id="olyvkyPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/shampinony.png" data-ingradient-pizza="shampinony" id="shampinonyPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/chesnochnyi.png" data-ingradient-pizza="chesnochnyi" id="chesnochnyiPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/alfredo.png" data-ingradient-pizza="alfredo" id="alfredoPizza" alt="" class="ingradient_on_pizza">
+                        <img src="img/sous-bbk.png" data-ingradient-pizza="sous-bbk" id="sous-bbkPizza" alt="" class="ingradient_on_pizza">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

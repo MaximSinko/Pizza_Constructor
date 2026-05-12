@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.wrap {
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 30px 30px 20px 50px;
+
+}
+
+
+.Header-logo {
+    background-color: #F98000;
+    font-size: 18px;
+    padding: 15px 75px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-pay {
+    background-color: green;
+    color: wheat;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+
+.left-box-column {
+    max-width: 300px;
+    margin-left: 70px;
+}
+
+.category {}
+
+
+
+.category-title {
+    font-size: 18px;
+    color: #FF9800;
+    padding: 10px 0;
+    border-bottom: 2px dotted;
+    font-family: 600;
+}
+
+.column-title {
+    text-align: center;
+}
+
+
+
+
+.ingradient-item {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border: 2px solid #F98000;
+}
+
+
+.ingradient-img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.ingradient-name {
+    font-size: 14px;
+    padding: 4px;
+}
+
+.ingradient-price {
+    font-size: 14px;
+}
+
+
+.ingradient-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizza-preview {
+    width: 500px;
+    height: 500px;
+    background-image: url(img/pizza-base-bread-500x500-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+.main-rigth-box {
+    max-width: 78%;
+}
+
+
+.pizza-img {
+    position: absolute;
+    margin-left: 350px;
+}
+
+
+.ingradient_on_pizza {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+
+.pizza-base {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    padding-top: 150px;
+
+}
