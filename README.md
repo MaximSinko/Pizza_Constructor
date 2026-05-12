@@ -13,7 +13,6 @@ Author: **[Maxim]**
 ### What was done:
 - Home page layout
 - Page title and description
-- Getting information about characters from API
-- Button script
-- Cards with characters
-- Slider
+- Getting information about pizza from API
+- Adding ingredients
+  
