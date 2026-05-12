@@ -1,5 +1,5 @@
 # Pizza_Constructor
-![screen of main page](.png)
+![screen of main page](pizzascreen.png)
 
 ## Contributors
 This project was developed by:
